@@ -1,0 +1,45 @@
+nav{
+    position: sticky;
+    top: -1px;
+    background-image: linear-gradient(180deg, #eae3e3 75%, transparent);
+}
+.logo-img, .cart{
+    height: 40px;
+    width: 40px;
+    margin: 0 3rem;
+}
+.logo-text{
+    font-family: var(--tertiary-font);
+    font-size: 4.2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-container{
+    padding: 2rem;
+    margin-top: 2rem;
+    grid-gap: 8rem 2rem;
+    justify-items: center;
+}
+$lg : 1313px;
+$small: 660px;
+
+@media only screen and (max-width: $lg) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: $small) {
+    .logo-text{
+        font-size: 2rem;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .logo-img, .cart{
+        margin: 0;
+    }
+}

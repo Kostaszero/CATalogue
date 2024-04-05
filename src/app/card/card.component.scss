@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.photo{
+    // width: 200px;
+    height: 200px;
+    padding: 0;
+}
+.photo > img{
+    border-radius: 8px;
+}
+*{
+    font-family: var(--primary-font);
+}
+.cat-card {
+    width: var(--card-width);
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px 5px #6a5d5d;
+    background-color: var(--white-color);
+    margin: 2rem 0.5rem;
+    border: 1px solid rgb(166, 166, 166);
+}
+.meta-card{
+    padding: 1rem 0 1rem;
+    padding-left: 2rem;
+    display: grid;
+}
+menu{
+    row-gap: 1rem;
+    display: grid;
+}
+.name {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+}
+.weight{
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.rupee{
+    font-family: var(--secondary-font);
+    margin-right: 2px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.price {
+    font-family: "Exo 2", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.count{
+    font-size: 1.6rem;
+}
+.count-btn{
+    background: none;
+    border: 1px solid var(--primary-color);
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.count-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+
+.trash-bin{
+    width: 45px;
+    height: 45px; 
+    // margin-left: 36px; 
+    cursor: pointer;
+}
+.trash-bin:hover{
+    background-color: #999;
+    border-radius: 50%;
+}
+
+.cart-btn{    
+    width: 70%;
+    font-size: 1.2rem;
+    background-color: rgb(255, 37, 73);
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+}
+.cart-btn:hover{
+    background-color: rgb(214, 30, 61);
+}
+
+
+$small: 660px;
+
+@media screen and (max-width: $small) {
+    .price-tag{
+        position: relative;
+        top: 10px;
+    }
+}

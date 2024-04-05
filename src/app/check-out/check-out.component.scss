@@ -1,0 +1,76 @@
+.cart-area{
+    width: 100%;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding: 2.5rem 0 0 5rem;
+    position: relative;
+}
+.cart-area-empty{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.empty-bag-text{
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    font-size: 70px;
+    line-height: 2.2rem;
+    font-weight: 500;
+    // margin: 0 0px 200px;
+    text-overflow: ellipsis;
+    padding: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: font-size 0.5s ease;
+}
+.text{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 3.8rem;    
+    padding: 16px;
+    margin-bottom: 30px;
+}
+.rupee {
+    font-family: var(--secondary-font);
+    margin-right: 2px;
+    font-weight: 500;
+}
+.check-out-text{
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 2.2rem;
+    font-weight: 500;
+    padding: 0 0 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all .5s ease;
+    justify-content: space-between;
+}
+.check-out-grid{
+    display: grid; grid-template-columns: 1fr 1fr;
+}
+.total{
+    width: 25%;
+}
+$small: 660px;
+
+@media only screen and (max-width: $small) {
+    .check-out-grid{
+        grid-template-columns: repeat(1, 1fr);
+        order: 1;
+    }
+    .empty-bag-text{
+        font-size: 5rem;
+    }
+    .text{
+        font-size: 2.8rem;
+    }
+    .cart-area{
+        padding: 2.5rem;
+    }
+    .total{
+        width: 100%;
+    }
+}

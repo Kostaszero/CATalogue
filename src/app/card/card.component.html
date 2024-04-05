@@ -1,0 +1,40 @@
+<div class="row p-3 justify-content-between cat-card">
+    <div class="col-lg-7 photo">
+        <img [src]="catDetails.img_src" alt="cat-image"> 
+    </div>
+    <div class="col-lg-5 meta-card">
+        <div class="row">
+            <menu class="col-lg-12 col-md-6 col-sm-6 col-6">
+                <div class="name">{{catDetails.title}}</div>
+                <div class="weight">Weight: &nbsp;{{catDetails.weight}}kg</div>
+            </menu>
+            <menu class="col-lg-12 col-md-6 col-sm-6 col-6">
+                <div class="d-flex price-tag">
+                    <div>
+                        <span class="rupee">₹</span><span class="price">{{catDetails.price}}</span>
+                    </div>
+                    <div style="margin-left:3px; scale: 0.8;">
+                        <span class="rupee">₹</span>
+                        <span class="price" style="text-decoration: line-through;">{{catDetails.price+213}}</span>
+                    </div>
+                </div>
+                <ng-container *ngIf="isAdded">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center justify-content-between" [style.width]="(canDelete)?'50%':'75%'">
+                            <button class="count-btn" (click)="updateCart(-1)">-</button>
+                            <div class="count">{{totalCount}}</div>
+                            <button class="count-btn" (click)="updateCart(1)">+</button>
+                        </div>
+                        <span *ngIf="canDelete" class="trash-bin d-flex justify-content-center align-items-center" 
+                        (click)="removeCat()">
+                            <img src=" assets/remove-icon.svg" alt="trash-bin" style="width: 25px; height: 25px;">
+                        </span>
+                    </div>
+                </ng-container>
+                <ng-container>
+                    <button *ngIf="!isAdded" class="cart-btn" (click)="addToCart()">Add to cart</button>
+                </ng-container>
+            </menu>
+        </div>
+    </div>
+</div>

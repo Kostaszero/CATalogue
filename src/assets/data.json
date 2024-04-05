@@ -1,0 +1,107 @@
+[
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/26k.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 31,
+        "price": 652,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/2ck.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 20,
+        "price": 622,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/3si.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 43,
+        "price": 1280,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/5n7.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 17,
+        "price": 849,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/a6g.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 59,
+        "price": 1133,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/3k0.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 18,
+        "price": 1036,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/4i7.gif",
+        "title": "Lorem Ipsum",
+        "weight": 57,
+        "price": 427,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/533.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 16,
+        "price": 1118,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/5jm.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 26,
+        "price": 270,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/9g1.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 17,
+        "price": 1009,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/efs.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 47,
+        "price": 467,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/MTk5NTUzNA.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 25,
+        "price": 723,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/MjAyNjIzNA.png",
+        "title": "Lorem Ipsum",
+        "weight": 53,
+        "price": 703,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/MjA0MjYyMA.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 40,
+        "price": 402,
+        "count": 0
+    },
+    {
+        "img_src": "https://cdn2.thecatapi.com/images/k5Vrnaz_Q.jpg",
+        "title": "Lorem Ipsum",
+        "weight": 13,
+        "price": 1144,
+        "count": 0
+    }
+]
