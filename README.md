@@ -1,6 +1,6 @@
 # CATalogue
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.13.
+This assignment is done for Platform Commons hiring process.
 
 ## Development server
 
